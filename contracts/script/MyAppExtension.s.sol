@@ -19,7 +19,7 @@ import { DefaultParameters } from "../src/core_codegen/index.sol";
 // For deploying MessageSystem
 import { MyAppSystem } from "../src/systems/MyAppSystem.sol";
  
-contract PaintExtension is Script {
+contract MyAppExtension is Script {
   function run() external {
     uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
     address worldAddress = vm.envAddress("WORLD_ADDRESS");

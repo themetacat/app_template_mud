@@ -87,6 +87,9 @@ pnpm run upload
 pnpm mud build
 ```
 
+#### Change your contracts:
+Change the address of chain-id in worlds.json
+
 #### Deploy/Update your App:
 ###### If the app contract is deployed for the first time: 
 ```
